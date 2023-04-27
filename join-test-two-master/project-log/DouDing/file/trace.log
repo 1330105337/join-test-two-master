@@ -1,0 +1,1309 @@
+2023-04-21 10:25:03.135 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-04-21 10:25:03.156 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-21 10:25:04.918 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 10:25:05.010 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 10:25:05.011 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 10:25:05.026 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 10:25:05.523 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 10:25:05.525 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 10:25:05.537 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-21 10:25:05.761 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 10:25:06.385 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 10:25:06.393 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 10:25:06.393 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 10:25:06.394 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 10:25:06.504 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 10:25:06.504 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 1465 ms
+2023-04-21 10:25:07.988 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 10:25:09.366 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:25:09.404 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 10:25:10.791 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:25:10.885 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 10:25:10.972 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 10:25:11.009 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 10:25:11.014 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 10:25:11.036 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 10:25:11.037 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 10:25:11.222 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 10:25:11.224 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 10:25:11.226 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 10:25:11.230 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682043911229 with initial instances count: 3
+2023-04-21 10:25:11.235 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 10:25:11.235 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682043911235, current=UP, previous=STARTING]
+2023-04-21 10:25:11.237 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 10:25:11.238 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 10:25:11.255 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 10:25:11.256 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 10:25:11.268 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 10:25:12.645 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:25:12.654 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 11.214 seconds (JVM running for 12.439)
+2023-04-21 10:25:12.657 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 10:25:12.658 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 10:27:52.647 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 10:27:52.647 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-21 10:27:52.649 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2023-04-21 10:27:52.677 INFO  com.douding.server.config.LogAspect               :76   [32mZd1YD6Hd[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:27:52.678 INFO  com.douding.server.config.LogAspect               :77   [32mZd1YD6Hd[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:27:52.678 INFO  com.douding.server.config.LogAspect               :78   [32mZd1YD6Hd[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:27:52.678 INFO  com.douding.server.config.LogAspect               :79   [32mZd1YD6Hd[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:27:52.709 INFO  com.douding.server.config.LogAspect               :97   [32mZd1YD6Hd[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:27:52.711 INFO  com.douding.file.controller.admin.UploadController:56   [32mZd1YD6Hd[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:27:52.747 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mZd1YD6Hd[0;39m HikariPool-1 - Starting...
+2023-04-21 10:27:52.851 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mZd1YD6Hd[0;39m HikariPool-1 - Start completed.
+2023-04-21 10:27:52.858 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mZd1YD6Hd[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:27:52.881 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mZd1YD6Hd[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:27:52.903 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mZd1YD6Hd[0;39m <==      Total: 0
+2023-04-21 10:27:52.944 INFO  com.douding.server.config.LogAspect               :109  [32mZd1YD6Hd[0;39m 返回结果: {"success":true}
+2023-04-21 10:27:52.944 INFO  com.douding.server.config.LogAspect               :110  [32mZd1YD6Hd[0;39m ------------- 结束 耗时：269 ms -------------
+2023-04-21 10:27:53.028 INFO  com.douding.server.config.LogAspect               :76   [32mQHtt5GJ7[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:27:53.028 INFO  com.douding.server.config.LogAspect               :77   [32mQHtt5GJ7[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:27:53.028 INFO  com.douding.server.config.LogAspect               :78   [32mQHtt5GJ7[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:27:53.029 INFO  com.douding.server.config.LogAspect               :79   [32mQHtt5GJ7[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:27:53.032 INFO  com.douding.server.config.LogAspect               :97   [32mQHtt5GJ7[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:27:53.048 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mQHtt5GJ7[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:27:53.049 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mQHtt5GJ7[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:27:53.050 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mQHtt5GJ7[0;39m <==      Total: 0
+2023-04-21 10:27:53.050 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mQHtt5GJ7[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2023-04-21 10:27:53.053 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mQHtt5GJ7[0;39m ==> Parameters: uc3dRWuT(String), teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:27:53.05(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:27:53.059 DEBUG com.douding.server.mapper.FileMapper.insert       :159  [32mQHtt5GJ7[0;39m <==    Updates: 1
+2023-04-21 10:27:53.060 INFO  com.douding.server.config.LogAspect               :109  [32mQHtt5GJ7[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:27:53.060 INFO  com.douding.server.config.LogAspect               :110  [32mQHtt5GJ7[0;39m ------------- 结束 耗时：32 ms -------------
+2023-04-21 10:28:54.278 INFO  com.douding.server.config.LogAspect               :76   [32mMdMpgSRg[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:28:54.279 INFO  com.douding.server.config.LogAspect               :77   [32mMdMpgSRg[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:28:54.279 INFO  com.douding.server.config.LogAspect               :78   [32mMdMpgSRg[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:28:54.279 INFO  com.douding.server.config.LogAspect               :79   [32mMdMpgSRg[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:28:54.280 INFO  com.douding.server.config.LogAspect               :97   [32mMdMpgSRg[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:28:54.280 INFO  com.douding.file.controller.admin.UploadController:56   [32mMdMpgSRg[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:28:54.281 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mMdMpgSRg[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:28:54.282 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mMdMpgSRg[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:28:54.283 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mMdMpgSRg[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:28:54.285 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mMdMpgSRg[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:27:53.050, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:28:54.288 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mMdMpgSRg[0;39m <==      Total: 1
+2023-04-21 10:28:54.289 INFO  com.douding.server.config.LogAspect               :109  [32mMdMpgSRg[0;39m 返回结果: {"success":true}
+2023-04-21 10:28:54.289 INFO  com.douding.server.config.LogAspect               :110  [32mMdMpgSRg[0;39m ------------- 结束 耗时：11 ms -------------
+2023-04-21 10:28:54.323 INFO  com.douding.server.config.LogAspect               :76   [32mEaLuwFtY[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:28:54.324 INFO  com.douding.server.config.LogAspect               :77   [32mEaLuwFtY[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:28:54.324 INFO  com.douding.server.config.LogAspect               :78   [32mEaLuwFtY[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:28:54.324 INFO  com.douding.server.config.LogAspect               :79   [32mEaLuwFtY[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:28:54.324 INFO  com.douding.server.config.LogAspect               :97   [32mEaLuwFtY[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:28:54.327 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mEaLuwFtY[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:28:54.327 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mEaLuwFtY[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:28:54.328 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mEaLuwFtY[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:28:54.329 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mEaLuwFtY[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:27:53.050, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:28:54.331 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mEaLuwFtY[0;39m <==      Total: 1
+2023-04-21 10:28:54.332 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mEaLuwFtY[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2023-04-21 10:28:54.335 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mEaLuwFtY[0;39m ==> Parameters: teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:28:54.332(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String), uc3dRWuT(String)
+2023-04-21 10:28:54.339 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mEaLuwFtY[0;39m <==    Updates: 1
+2023-04-21 10:28:54.339 INFO  com.douding.server.config.LogAspect               :109  [32mEaLuwFtY[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:28:54.339 INFO  com.douding.server.config.LogAspect               :110  [32mEaLuwFtY[0;39m ------------- 结束 耗时：16 ms -------------
+2023-04-21 10:29:09.157 INFO  com.douding.server.config.LogAspect               :76   [32mbtJzZsG2[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:29:09.157 INFO  com.douding.server.config.LogAspect               :77   [32mbtJzZsG2[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:29:09.158 INFO  com.douding.server.config.LogAspect               :78   [32mbtJzZsG2[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:29:09.158 INFO  com.douding.server.config.LogAspect               :79   [32mbtJzZsG2[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:29:09.158 INFO  com.douding.server.config.LogAspect               :97   [32mbtJzZsG2[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:29:09.158 INFO  com.douding.file.controller.admin.UploadController:56   [32mbtJzZsG2[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:29:09.159 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mbtJzZsG2[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:29:09.160 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mbtJzZsG2[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:29:09.161 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mbtJzZsG2[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:29:09.162 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mbtJzZsG2[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:28:54.332, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:29:09.163 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mbtJzZsG2[0;39m <==      Total: 1
+2023-04-21 10:29:09.164 INFO  com.douding.server.config.LogAspect               :109  [32mbtJzZsG2[0;39m 返回结果: {"success":true}
+2023-04-21 10:29:09.164 INFO  com.douding.server.config.LogAspect               :110  [32mbtJzZsG2[0;39m ------------- 结束 耗时：7 ms -------------
+2023-04-21 10:29:09.206 INFO  com.douding.server.config.LogAspect               :76   [32mKrgGM0AO[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:29:09.207 INFO  com.douding.server.config.LogAspect               :77   [32mKrgGM0AO[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:29:09.207 INFO  com.douding.server.config.LogAspect               :78   [32mKrgGM0AO[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:29:09.207 INFO  com.douding.server.config.LogAspect               :79   [32mKrgGM0AO[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:29:09.208 INFO  com.douding.server.config.LogAspect               :97   [32mKrgGM0AO[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:29:09.210 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mKrgGM0AO[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:29:09.211 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mKrgGM0AO[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:29:09.212 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mKrgGM0AO[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:29:09.213 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mKrgGM0AO[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:28:54.332, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:29:09.215 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mKrgGM0AO[0;39m <==      Total: 1
+2023-04-21 10:29:09.217 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKrgGM0AO[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2023-04-21 10:29:09.218 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKrgGM0AO[0;39m ==> Parameters: teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:29:09.217(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String), uc3dRWuT(String)
+2023-04-21 10:29:09.222 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKrgGM0AO[0;39m <==    Updates: 1
+2023-04-21 10:29:09.223 INFO  com.douding.server.config.LogAspect               :109  [32mKrgGM0AO[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:29:09.224 INFO  com.douding.server.config.LogAspect               :110  [32mKrgGM0AO[0;39m ------------- 结束 耗时：18 ms -------------
+2023-04-21 10:30:11.047 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 10:30:32.303 INFO  com.douding.server.config.LogAspect               :76   [32mJsBRiSBl[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:30:32.303 INFO  com.douding.server.config.LogAspect               :77   [32mJsBRiSBl[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:30:32.303 INFO  com.douding.server.config.LogAspect               :78   [32mJsBRiSBl[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:30:32.303 INFO  com.douding.server.config.LogAspect               :79   [32mJsBRiSBl[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:30:32.304 INFO  com.douding.server.config.LogAspect               :97   [32mJsBRiSBl[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:30:32.304 INFO  com.douding.file.controller.admin.UploadController:56   [32mJsBRiSBl[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:30:32.305 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mJsBRiSBl[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:30:32.305 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mJsBRiSBl[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:30:32.306 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mJsBRiSBl[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:30:32.307 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mJsBRiSBl[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:29:09.217, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:30:32.307 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mJsBRiSBl[0;39m <==      Total: 1
+2023-04-21 10:30:32.308 INFO  com.douding.server.config.LogAspect               :109  [32mJsBRiSBl[0;39m 返回结果: {"success":true}
+2023-04-21 10:30:32.308 INFO  com.douding.server.config.LogAspect               :110  [32mJsBRiSBl[0;39m ------------- 结束 耗时：5 ms -------------
+2023-04-21 10:30:32.338 INFO  com.douding.server.config.LogAspect               :76   [32mfKftf8Yv[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:30:32.338 INFO  com.douding.server.config.LogAspect               :77   [32mfKftf8Yv[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:30:32.339 INFO  com.douding.server.config.LogAspect               :78   [32mfKftf8Yv[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:30:32.339 INFO  com.douding.server.config.LogAspect               :79   [32mfKftf8Yv[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:30:32.339 INFO  com.douding.server.config.LogAspect               :97   [32mfKftf8Yv[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:30:32.342 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mfKftf8Yv[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:30:32.344 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mfKftf8Yv[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:30:32.345 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mfKftf8Yv[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:30:32.346 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mfKftf8Yv[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:29:09.217, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:30:32.347 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mfKftf8Yv[0;39m <==      Total: 1
+2023-04-21 10:30:32.348 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mfKftf8Yv[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2023-04-21 10:30:32.349 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mfKftf8Yv[0;39m ==> Parameters: teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:30:32.348(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String), uc3dRWuT(String)
+2023-04-21 10:30:32.352 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mfKftf8Yv[0;39m <==    Updates: 1
+2023-04-21 10:30:32.352 INFO  com.douding.server.config.LogAspect               :109  [32mfKftf8Yv[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:30:32.352 INFO  com.douding.server.config.LogAspect               :110  [32mfKftf8Yv[0;39m ------------- 结束 耗时：14 ms -------------
+2023-04-21 10:35:11.056 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 10:39:45.340 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 10:39:45.340 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682044785340, current=DOWN, previous=UP]
+2023-04-21 10:39:45.341 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 10:39:45.352 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 10:39:45.795 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2023-04-21 10:39:45.801 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2023-04-21 10:39:45.801 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 10:39:48.814 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 10:39:48.820 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+2023-04-21 10:39:48.820 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 10:39:48.825 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2023-04-21 10:39:48.825 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 10:39:48.826 ERROR com.netflix.discovery.DiscoveryClient             :975  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-04-21 10:39:48.830 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 10:44:49.427 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-04-21 10:44:49.444 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-21 10:44:51.063 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 10:44:51.149 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 10:44:51.149 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 10:44:51.165 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 10:44:51.699 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 10:44:51.700 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 10:44:51.713 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-21 10:44:51.879 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 10:44:52.472 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 10:44:52.479 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 10:44:52.480 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 10:44:52.480 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 10:44:52.590 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 10:44:52.591 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 1413 ms
+2023-04-21 10:44:53.866 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 10:44:55.242 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:44:55.281 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 10:44:56.663 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:44:56.748 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 10:44:56.808 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 10:44:56.833 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 10:44:56.836 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 10:44:56.850 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 10:44:57.034 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 10:44:57.036 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 10:44:57.038 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 10:44:57.042 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682045097042 with initial instances count: 2
+2023-04-21 10:44:57.047 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 10:44:57.048 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682045097048, current=UP, previous=STARTING]
+2023-04-21 10:44:57.049 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 10:44:57.050 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 10:44:57.067 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 10:44:57.068 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 10:44:57.080 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 10:44:58.459 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 10:44:58.467 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 10.759 seconds (JVM running for 12.049)
+2023-04-21 10:44:58.469 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 10:44:58.470 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 10:46:32.570 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 10:46:32.570 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-21 10:46:32.572 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 0 ms
+2023-04-21 10:46:32.602 INFO  com.douding.server.config.LogAspect               :76   [32mXN6sgRIp[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:46:32.603 INFO  com.douding.server.config.LogAspect               :77   [32mXN6sgRIp[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:46:32.603 INFO  com.douding.server.config.LogAspect               :78   [32mXN6sgRIp[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:46:32.603 INFO  com.douding.server.config.LogAspect               :79   [32mXN6sgRIp[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:46:32.638 INFO  com.douding.server.config.LogAspect               :97   [32mXN6sgRIp[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:46:32.642 INFO  com.douding.file.controller.admin.UploadController:56   [32mXN6sgRIp[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:32.683 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mXN6sgRIp[0;39m HikariPool-1 - Starting...
+2023-04-21 10:46:32.802 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mXN6sgRIp[0;39m HikariPool-1 - Start completed.
+2023-04-21 10:46:32.809 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mXN6sgRIp[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:46:32.838 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mXN6sgRIp[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:46:32.858 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mXN6sgRIp[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:46:32.862 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mXN6sgRIp[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:30:32.348, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:32.863 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mXN6sgRIp[0;39m <==      Total: 1
+2023-04-21 10:46:32.905 INFO  com.douding.server.config.LogAspect               :109  [32mXN6sgRIp[0;39m 返回结果: {"success":true}
+2023-04-21 10:46:32.906 INFO  com.douding.server.config.LogAspect               :110  [32mXN6sgRIp[0;39m ------------- 结束 耗时：306 ms -------------
+2023-04-21 10:46:32.971 INFO  com.douding.server.config.LogAspect               :76   [32mAteZdxuG[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:46:32.971 INFO  com.douding.server.config.LogAspect               :77   [32mAteZdxuG[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:46:32.972 INFO  com.douding.server.config.LogAspect               :78   [32mAteZdxuG[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:46:32.972 INFO  com.douding.server.config.LogAspect               :79   [32mAteZdxuG[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:46:32.976 INFO  com.douding.server.config.LogAspect               :97   [32mAteZdxuG[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:46:32.990 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mAteZdxuG[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:46:32.991 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mAteZdxuG[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:46:32.992 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mAteZdxuG[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:46:32.993 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mAteZdxuG[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:30:32.348, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:32.994 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mAteZdxuG[0;39m <==      Total: 1
+2023-04-21 10:46:32.994 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mAteZdxuG[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2023-04-21 10:46:32.996 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mAteZdxuG[0;39m ==> Parameters: teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:46:32.994(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String), uc3dRWuT(String)
+2023-04-21 10:46:32.999 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mAteZdxuG[0;39m <==    Updates: 1
+2023-04-21 10:46:33.000 INFO  com.douding.server.config.LogAspect               :109  [32mAteZdxuG[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:46:33.000 INFO  com.douding.server.config.LogAspect               :110  [32mAteZdxuG[0;39m ------------- 结束 耗时：29 ms -------------
+2023-04-21 10:46:46.069 INFO  com.douding.server.config.LogAspect               :76   [32m8nS8qth8[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:46:46.069 INFO  com.douding.server.config.LogAspect               :77   [32m8nS8qth8[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 10:46:46.069 INFO  com.douding.server.config.LogAspect               :78   [32m8nS8qth8[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 10:46:46.070 INFO  com.douding.server.config.LogAspect               :79   [32m8nS8qth8[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:46:46.070 INFO  com.douding.server.config.LogAspect               :97   [32m8nS8qth8[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 10:46:46.070 INFO  com.douding.file.controller.admin.UploadController:56   [32m8nS8qth8[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:46.071 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m8nS8qth8[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:46:46.072 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m8nS8qth8[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:46:46.073 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32m8nS8qth8[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:46:46.074 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32m8nS8qth8[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:46:32.994, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:46.075 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32m8nS8qth8[0;39m <==      Total: 1
+2023-04-21 10:46:46.075 INFO  com.douding.server.config.LogAspect               :109  [32m8nS8qth8[0;39m 返回结果: {"success":true}
+2023-04-21 10:46:46.075 INFO  com.douding.server.config.LogAspect               :110  [32m8nS8qth8[0;39m ------------- 结束 耗时：7 ms -------------
+2023-04-21 10:46:46.101 INFO  com.douding.server.config.LogAspect               :76   [32mPN0SrfU1[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 10:46:46.102 INFO  com.douding.server.config.LogAspect               :77   [32mPN0SrfU1[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 10:46:46.102 INFO  com.douding.server.config.LogAspect               :78   [32mPN0SrfU1[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 10:46:46.102 INFO  com.douding.server.config.LogAspect               :79   [32mPN0SrfU1[0;39m 远程地址: 127.0.0.1
+2023-04-21 10:46:46.102 INFO  com.douding.server.config.LogAspect               :97   [32mPN0SrfU1[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 10:46:46.105 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mPN0SrfU1[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2023-04-21 10:46:46.106 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mPN0SrfU1[0;39m ==> Parameters: CRQyIGSSD6kYC4G88CeiK(String)
+2023-04-21 10:46:46.106 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mPN0SrfU1[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2023-04-21 10:46:46.107 TRACE c.douding.server.mapper.FileMapper.selectByExample:165  [32mPN0SrfU1[0;39m <==        Row: uc3dRWuT, teacher/20190930015813827.jpg, 20190930015813827.jpg, jpg, 201864, T, 2023-04-21 10:27:53.050, 2023-04-21 10:46:32.994, 1, 5242880, 1, CRQyIGSSD6kYC4G88CeiK
+2023-04-21 10:46:46.108 DEBUG c.douding.server.mapper.FileMapper.selectByExample:159  [32mPN0SrfU1[0;39m <==      Total: 1
+2023-04-21 10:46:46.109 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mPN0SrfU1[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2023-04-21 10:46:46.110 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mPN0SrfU1[0;39m ==> Parameters: teacher/20190930015813827.jpg(String), 20190930015813827.jpg(String), jpg(String), 201864(Integer), T(String), 2023-04-21 10:27:53.05(Timestamp), 2023-04-21 10:46:46.109(Timestamp), 1(Integer), 5242880(Integer), 1(Integer), CRQyIGSSD6kYC4G88CeiK(String), uc3dRWuT(String)
+2023-04-21 10:46:46.112 DEBUG c.d.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mPN0SrfU1[0;39m <==    Updates: 1
+2023-04-21 10:46:46.113 INFO  com.douding.server.config.LogAspect               :109  [32mPN0SrfU1[0;39m 返回结果: {"content":"teacher/20190930015813827.jpg","success":true}
+2023-04-21 10:46:46.113 INFO  com.douding.server.config.LogAspect               :110  [32mPN0SrfU1[0;39m ------------- 结束 耗时：12 ms -------------
+2023-04-21 10:49:56.866 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 10:54:33.668 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 10:54:33.668 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682045673668, current=DOWN, previous=UP]
+2023-04-21 10:54:33.669 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 10:54:33.686 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 10:54:34.153 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2023-04-21 10:54:34.159 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2023-04-21 10:54:34.159 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 10:54:37.169 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 10:54:37.174 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+2023-04-21 10:54:37.175 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 10:54:37.179 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2023-04-21 10:54:37.179 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 10:54:37.180 ERROR com.netflix.discovery.DiscoveryClient             :975  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-04-21 10:54:37.184 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 11:20:17.175 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-04-21 11:20:17.193 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-21 11:20:18.816 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 11:20:18.899 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 11:20:18.900 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 11:20:18.914 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 11:20:19.421 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 11:20:19.423 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 11:20:19.436 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-21 11:20:19.601 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 11:20:20.184 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 11:20:20.192 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:20:20.192 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 11:20:20.192 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 11:20:20.304 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 11:20:20.305 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 1378 ms
+2023-04-21 11:20:21.618 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 11:20:23.033 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:20:23.071 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 11:20:24.453 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:20:24.538 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 11:20:24.596 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 11:20:24.620 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 11:20:24.623 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 11:20:24.637 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 11:20:24.800 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 11:20:24.802 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 11:20:24.803 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 11:20:24.807 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682047224806 with initial instances count: 2
+2023-04-21 11:20:24.812 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 11:20:24.813 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047224813, current=UP, previous=STARTING]
+2023-04-21 11:20:24.814 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:20:24.815 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:20:24.832 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 11:20:24.832 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 11:20:24.844 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:20:26.215 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:20:26.223 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 10.746 seconds (JVM running for 11.932)
+2023-04-21 11:20:26.225 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 11:20:26.225 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 11:22:54.777 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 11:22:54.777 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-21 11:22:54.778 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2023-04-21 11:22:54.808 INFO  com.douding.server.config.LogAspect               :76   [32mTJQBESbE[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:22:54.809 INFO  com.douding.server.config.LogAspect               :77   [32mTJQBESbE[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 11:22:54.810 INFO  com.douding.server.config.LogAspect               :78   [32mTJQBESbE[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 11:22:54.810 INFO  com.douding.server.config.LogAspect               :79   [32mTJQBESbE[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:22:54.842 INFO  com.douding.server.config.LogAspect               :97   [32mTJQBESbE[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 11:22:54.846 INFO  com.douding.file.controller.admin.UploadController:116  [32mTJQBESbE[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 11:22:54.879 INFO  com.douding.server.config.LogAspect               :109  [32mTJQBESbE[0;39m 返回结果: {"success":true}
+2023-04-21 11:22:54.880 INFO  com.douding.server.config.LogAspect               :110  [32mTJQBESbE[0;39m ------------- 结束 耗时：75 ms -------------
+2023-04-21 11:22:54.938 INFO  com.douding.server.config.LogAspect               :76   [32mdamWFke3[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:22:54.938 INFO  com.douding.server.config.LogAspect               :77   [32mdamWFke3[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 11:22:54.939 INFO  com.douding.server.config.LogAspect               :78   [32mdamWFke3[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 11:22:54.939 INFO  com.douding.server.config.LogAspect               :79   [32mdamWFke3[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:22:54.942 INFO  com.douding.server.config.LogAspect               :97   [32mdamWFke3[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 11:22:54.966 INFO  com.douding.file.controller.admin.UploadController:81   [32mdamWFke3[0;39m 合并分片开始
+2023-04-21 11:22:54.976 INFO  com.douding.server.config.LogAspect               :109  [32mdamWFke3[0;39m 返回结果: {"content":{"path":"http://localhost:9000/file/f/C/R/CRQyIGSSD6kYC4G88CeiK.jpg"},"success":true}
+2023-04-21 11:22:54.977 INFO  com.douding.server.config.LogAspect               :110  [32mdamWFke3[0;39m ------------- 结束 耗时：39 ms -------------
+2023-04-21 11:22:56.092 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 11:22:56.092 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047376092, current=DOWN, previous=UP]
+2023-04-21 11:22:56.093 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:22:56.096 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:22:56.363 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 11:22:59.370 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 11:22:59.386 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - deregister  status: 200
+2023-04-21 11:22:59.390 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 11:23:02.324 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 11:23:02.336 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 11:23:02.336 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 11:23:02.347 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 11:23:02.586 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 11:23:02.587 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 11:23:02.588 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-04-21 11:23:02.643 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 11:23:02.739 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 11:23:02.739 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:23:02.739 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 11:23:02.740 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 11:23:02.781 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 11:23:02.781 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 431 ms
+2023-04-21 11:23:03.347 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 11:23:04.717 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:23:04.740 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 11:23:06.134 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:23:06.179 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 11:23:06.229 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 11:23:06.231 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 11:23:06.232 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 11:23:06.237 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 11:23:06.237 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 11:23:06.238 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 11:23:06.238 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 11:23:06.238 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 11:23:06.238 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 11:23:06.238 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 11:23:06.253 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 11:23:06.255 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 11:23:06.255 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 11:23:06.256 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682047386256 with initial instances count: 4
+2023-04-21 11:23:06.261 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 11:23:06.261 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047386261, current=UP, previous=STARTING]
+2023-04-21 11:23:06.262 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:23:06.263 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:23:06.264 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 11:23:06.265 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 11:23:06.274 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:23:07.640 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:23:07.729 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 8.271 seconds (JVM running for 173.436)
+2023-04-21 11:23:07.749 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2023-04-21 11:23:07.750 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 11:23:07.750 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 11:26:41.388 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 11:26:41.388 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047601388, current=DOWN, previous=UP]
+2023-04-21 11:26:41.388 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:26:41.405 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:26:41.821 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 11:26:44.823 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 11:26:44.828 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+2023-04-21 11:26:44.828 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 11:26:44.833 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2023-04-21 11:26:44.833 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 11:26:44.834 ERROR com.netflix.discovery.DiscoveryClient             :975  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-04-21 11:26:44.837 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 11:29:44.064 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.2.0.Final
+2023-04-21 11:29:44.084 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-21 11:29:45.788 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 11:29:45.889 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 11:29:45.890 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 11:29:45.906 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 11:29:46.523 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 11:29:46.525 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 11:29:46.546 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-04-21 11:29:46.785 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 11:29:47.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 11:29:47.704 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:29:47.704 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 11:29:47.704 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 11:29:47.849 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 11:29:47.849 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 1928 ms
+2023-04-21 11:29:49.404 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 11:29:50.820 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:29:50.861 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 11:29:52.271 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:29:52.341 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 11:29:52.409 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 11:29:52.437 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 11:29:52.442 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 11:29:52.456 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 11:29:52.457 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 11:29:52.640 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 11:29:52.643 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 11:29:52.644 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 11:29:52.648 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682047792647 with initial instances count: 3
+2023-04-21 11:29:52.653 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 11:29:52.654 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047792654, current=UP, previous=STARTING]
+2023-04-21 11:29:52.655 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:29:52.656 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:29:52.673 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 11:29:52.674 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 11:29:52.687 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:29:54.055 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:29:54.064 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 11.833 seconds (JVM running for 13.209)
+2023-04-21 11:29:54.066 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 11:29:54.067 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 11:30:39.484 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 11:30:39.485 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-21 11:30:39.486 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2023-04-21 11:30:51.624 INFO  com.douding.server.config.LogAspect               :76   [32mn3WOe4xr[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:30:51.625 INFO  com.douding.server.config.LogAspect               :77   [32mn3WOe4xr[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 11:30:51.625 INFO  com.douding.server.config.LogAspect               :78   [32mn3WOe4xr[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 11:30:51.625 INFO  com.douding.server.config.LogAspect               :79   [32mn3WOe4xr[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:30:51.662 INFO  com.douding.server.config.LogAspect               :97   [32mn3WOe4xr[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 11:30:51.666 INFO  com.douding.file.controller.admin.UploadController:116  [32mn3WOe4xr[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 11:30:51.701 INFO  com.douding.server.config.LogAspect               :109  [32mn3WOe4xr[0;39m 返回结果: {"success":true}
+2023-04-21 11:30:51.701 INFO  com.douding.server.config.LogAspect               :110  [32mn3WOe4xr[0;39m ------------- 结束 耗时：80 ms -------------
+2023-04-21 11:30:51.748 INFO  com.douding.server.config.LogAspect               :76   [32mEuFxQGFZ[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:30:51.748 INFO  com.douding.server.config.LogAspect               :77   [32mEuFxQGFZ[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 11:30:51.749 INFO  com.douding.server.config.LogAspect               :78   [32mEuFxQGFZ[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 11:30:51.749 INFO  com.douding.server.config.LogAspect               :79   [32mEuFxQGFZ[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:30:51.752 INFO  com.douding.server.config.LogAspect               :97   [32mEuFxQGFZ[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 11:30:51.770 INFO  com.douding.file.controller.admin.UploadController:81   [32mEuFxQGFZ[0;39m 合并分片开始
+2023-04-21 11:30:51.780 INFO  com.douding.server.config.LogAspect               :109  [32mEuFxQGFZ[0;39m 返回结果: {"content":{"path":"http://localhost:9000/file/f/C/R/CRQyIGSSD6kYC4G88CeiK.jpg"},"success":true}
+2023-04-21 11:30:51.780 INFO  com.douding.server.config.LogAspect               :110  [32mEuFxQGFZ[0;39m ------------- 结束 耗时：32 ms -------------
+2023-04-21 11:30:52.977 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 11:30:52.977 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047852977, current=DOWN, previous=UP]
+2023-04-21 11:30:52.977 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:30:52.981 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:30:53.247 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 11:30:56.255 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 11:30:56.272 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - deregister  status: 200
+2023-04-21 11:30:56.275 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 11:30:59.263 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 11:30:59.276 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 11:30:59.276 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 11:30:59.286 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 11:30:59.521 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 11:30:59.522 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 11:30:59.523 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-04-21 11:30:59.574 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 11:30:59.665 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 11:30:59.666 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:30:59.666 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 11:30:59.666 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 11:30:59.707 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 11:30:59.707 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 418 ms
+2023-04-21 11:31:00.283 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 11:31:01.655 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:31:01.676 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 11:31:03.049 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:31:03.086 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 11:31:03.112 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 11:31:03.114 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 11:31:03.115 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 11:31:03.119 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 11:31:03.134 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 11:31:03.135 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 11:31:03.136 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 11:31:03.141 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682047863141 with initial instances count: 4
+2023-04-21 11:31:03.147 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 11:31:03.147 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682047863147, current=UP, previous=STARTING]
+2023-04-21 11:31:03.148 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:31:03.148 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:31:03.150 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 11:31:03.151 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 11:31:03.158 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:31:04.522 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:31:04.526 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 8.146 seconds (JVM running for 83.671)
+2023-04-21 11:31:04.528 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2023-04-21 11:31:04.528 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 11:31:04.528 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 11:34:23.558 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-21 11:34:23.558 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2023-04-21 11:34:23.559 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2023-04-21 11:34:23.564 INFO  com.douding.server.config.LogAspect               :76   [32mx3qdJ5Ao[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:34:23.564 INFO  com.douding.server.config.LogAspect               :77   [32mx3qdJ5Ao[0;39m 请求地址: http://localhost:9003/file/admin/file/check/CRQyIGSSD6kYC4G88CeiK GET
+2023-04-21 11:34:23.564 INFO  com.douding.server.config.LogAspect               :78   [32mx3qdJ5Ao[0;39m 类名方法: com.douding.file.controller.admin.UploadController.check
+2023-04-21 11:34:23.564 INFO  com.douding.server.config.LogAspect               :79   [32mx3qdJ5Ao[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:34:23.565 INFO  com.douding.server.config.LogAspect               :97   [32mx3qdJ5Ao[0;39m 请求参数: ["CRQyIGSSD6kYC4G88CeiK"]
+2023-04-21 11:34:23.567 INFO  com.douding.file.controller.admin.UploadController:116  [32mx3qdJ5Ao[0;39m 检查上传分片开始：CRQyIGSSD6kYC4G88CeiK
+2023-04-21 11:34:23.569 INFO  com.douding.server.config.LogAspect               :109  [32mx3qdJ5Ao[0;39m 返回结果: {"success":true}
+2023-04-21 11:34:23.569 INFO  com.douding.server.config.LogAspect               :110  [32mx3qdJ5Ao[0;39m ------------- 结束 耗时：7 ms -------------
+2023-04-21 11:34:23.604 INFO  com.douding.server.config.LogAspect               :76   [32mvzEShMNv[0;39m ------------- 【文件上传】操作开始 -------------
+2023-04-21 11:34:23.605 INFO  com.douding.server.config.LogAspect               :77   [32mvzEShMNv[0;39m 请求地址: http://localhost:9003/file/admin/file/upload POST
+2023-04-21 11:34:23.605 INFO  com.douding.server.config.LogAspect               :78   [32mvzEShMNv[0;39m 类名方法: com.douding.file.controller.admin.UploadController.upload
+2023-04-21 11:34:23.605 INFO  com.douding.server.config.LogAspect               :79   [32mvzEShMNv[0;39m 远程地址: 127.0.0.1
+2023-04-21 11:34:23.607 INFO  com.douding.server.config.LogAspect               :97   [32mvzEShMNv[0;39m 请求参数: [{"key":"CRQyIGSSD6kYC4G88CeiK","name":"20190930015813827.jpg","shardIndex":1,"shardSize":5242880,"shardTotal":1,"size":201864,"suffix":"jpg","use":"T"}]
+2023-04-21 11:34:23.613 INFO  com.douding.file.controller.admin.UploadController:81   [32mvzEShMNv[0;39m 合并分片开始
+2023-04-21 11:34:23.617 INFO  com.douding.server.config.LogAspect               :109  [32mvzEShMNv[0;39m 返回结果: {"content":{"path":"http://localhost:9000/file/f/C/R/CRQyIGSSD6kYC4G88CeiK.jpg"},"success":true}
+2023-04-21 11:34:23.617 INFO  com.douding.server.config.LogAspect               :110  [32mvzEShMNv[0;39m ------------- 结束 耗时：13 ms -------------
+2023-04-21 11:34:24.550 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 11:34:24.550 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682048064550, current=DOWN, previous=UP]
+2023-04-21 11:34:24.550 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:34:24.563 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:34:24.819 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 11:34:27.834 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 11:34:27.849 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - deregister  status: 200
+2023-04-21 11:34:27.851 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2023-04-21 11:34:30.717 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :226  [32m        [0;39m Fetching config from server at : http://localhost:8888/
+2023-04-21 11:34:30.732 INFO  o.s.c.c.client.ConfigServicePropertySourceLocator :150  [32m        [0;39m Located environment: name=api-file, profiles=[dev], label=dev, version=null, state=null
+2023-04-21 11:34:30.732 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :109  [32m        [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-class path resource [config/dev/api-file-dev.yml]'}]
+2023-04-21 11:34:30.741 INFO  com.douding.file.config.FileApplication           :663  [32m        [0;39m The following profiles are active: dev
+2023-04-21 11:34:30.944 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :262  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-21 11:34:30.944 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :132  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-21 11:34:30.945 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :201  [32m        [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-04-21 11:34:30.994 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=679b229f-469d-35ff-bb64-0a5df119e1b9
+2023-04-21 11:34:31.091 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2023-04-21 11:34:31.092 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:34:31.092 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2023-04-21 11:34:31.092 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-04-21 11:34:31.132 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2023-04-21 11:34:31.132 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m        [0;39m Root WebApplicationContext: initialization completed in 389 ms
+2023-04-21 11:34:31.678 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2023-04-21 11:34:33.050 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:34:33.071 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2023-04-21 11:34:34.448 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:34:34.484 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-21 11:34:34.507 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2023-04-21 11:34:34.508 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2023-04-21 11:34:34.510 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2023-04-21 11:34:34.510 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2023-04-21 11:34:34.510 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2023-04-21 11:34:34.511 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2023-04-21 11:34:34.511 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2023-04-21 11:34:34.511 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2023-04-21 11:34:34.511 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2023-04-21 11:34:34.511 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2023-04-21 11:34:34.522 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2023-04-21 11:34:34.523 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2023-04-21 11:34:34.524 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-21 11:34:34.524 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1682048074524 with initial instances count: 4
+2023-04-21 11:34:34.529 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application API-FILE with eureka with status UP
+2023-04-21 11:34:34.529 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682048074529, current=UP, previous=STARTING]
+2023-04-21 11:34:34.530 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:34:34.531 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2023-04-21 11:34:34.532 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2023-04-21 11:34:34.533 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9003
+2023-04-21 11:34:34.538 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:34:35.884 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2023-04-21 11:34:35.888 INFO  com.douding.file.config.FileApplication           :61   [32m        [0;39m Started FileApplication in 7.978 seconds (JVM running for 295.032)
+2023-04-21 11:34:35.890 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2023-04-21 11:34:35.890 INFO  com.douding.file.config.FileApplication           :25   [32m        [0;39m 启动成功！！
+2023-04-21 11:34:35.890 INFO  com.douding.file.config.FileApplication           :26   [32m        [0;39m File: 	http://127.0.0.1:9003
+2023-04-21 11:36:55.414 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application API-FILE with eureka with status DOWN
+2023-04-21 11:36:55.414 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1682048215414, current=DOWN, previous=UP]
+2023-04-21 11:36:55.414 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003: registering service...
+2023-04-21 11:36:55.429 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - registration status: 204
+2023-04-21 11:36:55.849 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2023-04-21 11:36:58.857 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2023-04-21 11:36:58.861 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :93   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+2023-04-21 11:36:58.861 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 11:36:58.866 INFO  c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :84   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+2023-04-21 11:36:58.866 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/API-FILE/localhost:api-file:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-04-21 11:36:58.867 ERROR com.netflix.discovery.DiscoveryClient             :975  [32m        [0;39m DiscoveryClient_API-FILE/localhost:api-file:9003 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:131)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:100)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-04-21 11:36:58.870 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
